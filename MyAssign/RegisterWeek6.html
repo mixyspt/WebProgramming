@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='AssignmentWeek6_css.css'>
+    <script src='RegisterWeek6.js'></script>
+    <style>
+        body 
+        {
+          background-color: rgb(223, 188, 218);
+        }
+    </style>
+</head>
+
+<body>
+    <form name = "ProfileForm" id = "ProfileFormID" action="LoginWeek6.html">
+        <fieldset>
+
+            <legend> Register Profile </legend> <br>    
+            First Name : <br>
+                <input type="text" name = "firstname" required>
+                <br><br>
+            Last Name : <br>
+                <input type="text" name = "lastname">
+                <br><br> 
+            Gender : 
+                <input type="radio" name = "gender" value="Male"> Male
+                <input type="radio" name = "gender" value="Female"> Female
+                <input type="radio" name = "gender" value="OtherGender"> Other
+            <br><br>
+            Birthday :
+                <input type="date" name = "birthday"> 
+            <br><br>
+            Email :
+                <input type="email" name="email">
+            <br><br>
+            Username :
+                <input type="text" name="username">
+            <br><br>
+            Password :
+                <input type="password" name="password" required>
+            <br><br>
+            Retype Password :
+                <input type="password" name="password" required>
+            <br><br>
+
+            <span id="errorText"></span>
+            <br><br>
+            
+            <input type="submit" value = "Register">  
+            <input type="reset" value="Reset">             
+
+        </fieldset>
+    </form>
+</body> 
+</html>
