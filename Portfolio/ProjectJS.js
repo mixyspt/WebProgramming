@@ -7,5 +7,5 @@ function pageLoad()
 
 function GoBack()
 {
-    window.location.href='MainPage.html'
+    window.location.href='index.html'
 }
