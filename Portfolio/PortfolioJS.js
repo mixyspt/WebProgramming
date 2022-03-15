@@ -7,5 +7,5 @@ function pageLoad()
 
 function GoProject()
 {
-    window.location.href='Portfolio/Project.html'
+    window.location.href='Project.html'
 }
